@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOzK4E4prGtgAGdhW4Rtsae",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/abdelrahmanadel348/task1/blob/main/task2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 13,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "H2aO-Ka5EjpG",
+        "outputId": "52d4a0ae-58ac-4eab-cac1-8f34f969d91e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "It's a hot day. Stay hydrated!\n"
+          ]
+        }
+      ],
+      "source": [
+        "x = 100\n",
+        "if x >= 30 :\n",
+        "  print(\"It's a hot day. Stay hydrated!\")\n",
+        "elif x >= 20 and x <= 29 :\n",
+        "       print(\"It's a warm day. Enjoy the weather!\")\n",
+        "elif x >= 10 and x <= 19 :\n",
+        "       print(\"It's a cool day. Wear a jacket!\")\n",
+        "else:\n",
+        "       print(\"It's a cold day. Stay warm!\")"
+      ]
+    }
+  ]
+}
